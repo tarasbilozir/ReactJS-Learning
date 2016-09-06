@@ -1,3 +1,5 @@
-let hello = 'Hello world!'
+import React from 'react';
+import { render } from 'react-dom';
+import App from 'components/app';
 
-console.log(hello);
+render(<App />, document.getElementById('app'))
